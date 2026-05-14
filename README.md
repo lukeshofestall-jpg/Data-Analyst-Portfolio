@@ -19,3 +19,7 @@ The goal of this analysis is to identify how annual members and casual riders us
 
 ### 📂 Files in this Project
 * [View Analysis Notebook](cyclistic-case-study-capstone.ipynb)
+Since the raw data is quite large, I have included three aggregated CSV files in this repository for quick review:
+* **`annual_summary.csv`**: Aggregated totals and average ride lengths by member type.
+* **`day_of_the_week_usage.csv`**: Daily ridership volume to identify weekly trends.
+* **`monthly_usage.csv`**: Monthly volume to visualize seasonal fluctuations.
