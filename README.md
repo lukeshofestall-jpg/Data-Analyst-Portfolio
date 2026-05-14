@@ -12,7 +12,6 @@ The goal of this analysis is to identify how annual members and casual riders us
 ### 🛠️ Tools Used
 * **SQL (BigQuery):** Data cleaning and large-scale aggregation of **5.7M+ rows**.
 * **Python (Pandas, Seaborn, Matplotlib):** Exploratory Data Analysis (EDA) and visualization.
-* **Tableau:** (Optional: Link to your dashboard here if applicable).
 
 ### 💡 Key Insights
 * **Seasonal Trends:** Identified a **93% seasonal drop** in casual ridership during winter months.
