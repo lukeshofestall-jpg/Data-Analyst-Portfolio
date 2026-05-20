@@ -5,9 +5,7 @@ Educational institutions track massive volumes of digital footprints through Vir
 
 Rather than waiting for a student to fail a mid-semester exam or drop out entirely, this dashboard uncovers early **behavioral drop-off windows** and engagement patterns across different course types. This enables academic advisors and student success teams to launch proactive, automated interventions before a student falls behind.
 
-👉 **[View the Interactive Dashboard on Tableau Public]([https://public.tableau.com/](https://public.tableau.com/views/E_Learning_Dashboard/LearningAnalyticsDashboardStudentEngagementOULAD?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))**
-
----
+👉 [Click to Explore the Dashboard](https://public.tableau.com/views/E_Learning_Dashboard/LearningAnalyticsDashboardStudentEngagementOULAD?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## 🛠️ Data Architecture & Engineering Process
 Before building any visual components, significant data structural challenges within the Open University Learning Analytics Dataset (OULAD) had to be architected and resolved to preserve analytical integrity:
@@ -30,10 +28,6 @@ Before building any visual components, significant data structural challenges wi
 By analyzing the continuous timeline (normalized to `Day 0` as the official start date of the semester across staggered presentations), a major human behavioral pattern emerged. 
 * In massive humanities courses like **`BBB`**, a steep decline in student activity occurs uniformly within the first 30 days.
 * **Root Cause Identification:** Cross-referencing the daily activity mix revealed that a sharp, early-semester abandonment of **discussion forums** and **digital textbook reading (`oucontent`)** is the leading behavioral signature of an at-risk student pulling away.
-
-### 🪚 The STEM "Sawtooth" Engagement Cycle
-In contrast to the smooth, steady decay seen in essay-based modules, STEM courses display a highly synchronized, sharp "sawtooth" visual footprint.
-* **Root Cause Identification:** Clicks repeatedly explode into massive mountain peaks and immediately plunge into deep valleys on a weekly loop. These peaks correlate directly with rigid, non-negotiable assignment and computer-marked assessment deadlines. Students in these modules are heavily event-driven rather than self-paced.
 
 ---
 
@@ -71,11 +65,3 @@ Based on the operational insights surfaced by this analytical tool, the followin
 * **Automated Day-30 Triggers:** Configure the Learning Management System (LMS) to automatically flag students in Humanities modules who display fewer than a defined threshold of forum clicks by Day 30 for immediate academic advisor outreach.
 * **Resource Realignment:** Shift instructional design priorities toward creating more engaging, short-form interactive digital materials in modules displaying high early-semester attrition to bridge the initial engagement gap.
 
----
-
-## 📂 How to Explore the Repository
-* `OULAD_Student_Engagement.twbx`: The packaged Tableau Desktop workbook containing full relationship schema definitions and dashboard logic.
-* `images/`: High-resolution dashboard screenshots mapping the specific student behavior timelines.
-
----
-*Developed as a portfolio showcase analyzing student behavior and predictive engagement mapping within the Open University Learning Analytics Dataset.*
