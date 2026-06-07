@@ -35,7 +35,7 @@ By analyzing the continuous timeline (normalized to `Day 0` as the official star
 
 The interface is architected using strict professional visualization layouts to minimize cognitive load and maximize dashboard scannability:
 
-```
+```text
 +-----------------------------------------------------------------------------------------+
 |  LEARNING ANALYTICS DASHBOARD: Identifying Student Intervention Thresholds               |
 +-----------------------------------------------------------------------------------------+
