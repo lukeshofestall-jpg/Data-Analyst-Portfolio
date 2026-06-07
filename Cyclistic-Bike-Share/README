@@ -1,4 +1,4 @@
-```
+
 # 🚲 Cyclistic Bike-Share Case Study (Google Data Analytics Capstone)
 
 ## 📋 Project Overview
@@ -13,4 +13,3 @@ This repository contains the programming assets for my Cyclistic Bike-Share case
 * **`annual_summary.csv`**: Aggregated metric summaries capturing total ride counts and average trip durations by user type.
 * **`day_of_the_week_usage.csv`**: Weekly behavioral trends isolating specific days when casual riders vs. annual members utilize the fleet.
 * **`monthly_usage.csv`**: Seasonal variations tracking month-over-month volume shifts across the calendar year.
-```
