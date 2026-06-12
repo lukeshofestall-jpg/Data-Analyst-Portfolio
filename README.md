@@ -3,7 +3,7 @@ A collection of data analytics projects featuring SQL, Python, and Tableau, focu
 
 ---
 
-## 🚲 Cyclistic Bike-Share Analysis
+## 🚲 Cyclistic Bike-Share Analysis (Google Data Analytics Professional Cert Capstone)
 **Case Study: How Does a Bike-Share Navigate Speedy Success?**
 
 ### 📋 Project Overview
